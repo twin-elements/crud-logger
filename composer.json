@@ -1,0 +1,24 @@
+{
+  "name": "twin-elements/crud-logger",
+  "type": "component",
+  "description": "Crud logger for CMS",
+  "keywords": [
+    "logger"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Wladysław Dudko",
+      "email": "wladyslaw@jellinek.pl"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "symfony/routing": "^4.4 || ^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "TwinElements\\Component\\CrudLogger\\": ""
+    }
+  }
+}
